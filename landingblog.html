@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloggerZone</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="landingblog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rowdies:wght@300&family=Sora&display=swap" rel="stylesheet">
+</head>
+<header>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd; height: 50px;">
+        <img src="blog.png" width="50" height="50" alt="">
+        <p class="title">Blogger'sZone</p>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" id="btn" type="submit">Search</button>
+        </form>
+        <div class="dropdown">
+            <button class="dropbtn">News</button>
+            <div class="dropdown-content">
+            <a href="#">Local</a>
+            <a href="#">Political</a>
+            <a href="#">Educational</a>
+            <a href="#">Motivational</a>
+            <a href="#">Global</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn2">Events</button>
+            <div class="dropdown-content2">
+            <a href="#">Sports</a>
+            <a href="#">Music</a>
+            <a href="#">Drama</a>
+            <a href="#">Recreational</a>
+            <a href="#">Movies</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn3">Jobs</button>
+            <div class="dropdown-content3">
+            <a href="#">Government</a>
+            <a href="#">Private</a>
+            <a href="#">Opportunities</a>
+            <a href="#">Industrial</a>
+            <a href="#">Factory</a>
+            <a href="#">Skilled Labours</a>
+            <a href="#">Unskilled Labours</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+    <div class="slideshow-container">
+        <div class="slide">
+            <img src="1 (2).png" alt="Image 1">
+        </div>
+        <div class="slide">
+            <img src="2 (3).png" alt="Image 2">
+        </div>
+        <div class="slide">
+            <img src="3 (2).png" alt="Image 3">
+        </div>
+        <div class="slide">
+            <img src="4 (2).png" alt="Image 3">
+        </div>
+        <div class="slide">
+            <img src="5 (3).png" alt="Image 3">
+        </div>
+        <div class="slide">
+            <img src="6 (2).png" alt="Image 3">
+        </div>
+    </div>
+    <div class="about">
+        <div>
+            <img src="blg.png">
+        </div>
+        <div class="okay"><h1>Okay,</h1><br>Are you ready to embark on an extraordinary journey of self-expression and creativity? Join BloggingZone today and unleash the writer within you! Whether you're a seasoned wordsmith or a novice with a burning passion for sharing your thoughts, our vibrant community is here to support you every step of the way.</div>
+    </div>
+
+    <div class="next">
+        <div>
+            <img src="blgg.png">
+        </div>
+        <div class="so">
+            <h1>So,</h1>Blogging is not just about putting words on a screen; it's about connecting with others, igniting conversations, and leaving an indelible mark on the world. Embrace the power of your voice, tap into your unique perspective, and let your ideas soar. At BloggingZone, we believe that everyone has a story to tell, and your story deserves to be heard.
+        </div>
+    </div>
+
+    <div class="final">
+        <div>
+            <img src="blggg.png">
+        </div>
+        <div class="lessgo">
+            <h1>Let'sss Goo!!!</h1>So, come on board and become a part of our diverse and inspiring community of bloggers. Together, let's unravel the magic of blogging and leave an everlasting impact with our words. The adventure awaits—join us at BloggingZone and embark on the journey of a lifetime!
+        </div>
+    </div>
+
+    <div class="btn2">
+        <div>
+            <button class="start" type="button">Click here to start your journey</button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+        var slides = document.querySelectorAll('.slide');
+        var currentSlide = 0;
+        var slideInterval = setInterval(nextSlide, 5000); // Change slide every 5 seconds
+
+        function nextSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }
+    </script>
+</body>
+</html>

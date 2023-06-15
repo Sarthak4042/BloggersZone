@@ -1,0 +1,255 @@
+body{
+    overflow-x: hidden;
+}
+
+.form-inline{
+    position: fixed;
+    left: 1200px;
+    top: 5px;
+}
+
+.title{
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    color: rgb(78, 78, 238);
+    left: 60px;
+    top: 8px;
+}
+
+#navbarDropdownMenuLink{
+    color: rgb(78, 78, 238);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 78, 238);
+}
+
+.dropdown-menu{
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-menu:hover{
+    display: block;
+}
+
+.dropbtn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 78, 238);
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    left: 700px;
+    border-radius: 20px;
+    top: -10px;
+    width: 150px;
+}
+
+.dropbtn2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 78, 238);
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    left: 850px;
+    border-radius: 20px;
+    top: -10px;
+    width: 150px;
+}
+
+.dropbtn3 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 78, 238);
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    left: 1000px;
+    border-radius: 20px;
+    top: -10px;
+    width: 150px;
+}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 620px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+  .dropdown:hover .dropbtn2 {
+    background-color: #3e8e41;
+  }
+
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    left: 760px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content2 a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content2 {
+    display: block;
+  }
+  
+  .dropdown-content3 {
+    display: none;
+    position: absolute;
+    left: 900px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content3 a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content3 {
+    display: block;
+  }
+  
+  .slideshow-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    left: 2px;
+    top: -12px;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.about{
+  background-color: #ee412b;
+  height: 410px;
+}
+
+.okay{
+  position: relative;
+  left: 32%;
+  top: -350px;
+  width: 1000px;
+  color: #ebef6f;
+  font-size: 20px;
+}
+
+.next img{
+  position: relative;
+  left: 70%;
+}
+
+.next{
+  height: 380px;
+  background-color: cornflowerblue;
+}
+
+.so{
+  position: relative;
+  left: 7%;
+  width: 900px;
+  top: -300px;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.final{
+  background-color: #b4ebb6;
+  height: 440px;
+}
+
+.lessgo{
+  position: relative;
+  left: 32%;
+  top: -350px;
+  width: 1000px;
+  font-size: 20px;
+  color: #005a03;
+}
+
+.start{
+  position: relative;
+  left: 38%;
+  height: 70px;
+  top: 20px;
+  width: 400px;
+  font-size: 20px;
+  background-color: darkorchid;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 20px;
+}
+
+.btn2{
+  background-color: rgb(219, 169, 244);
+  height: 100px;
+  width: 1520px;
+}
